@@ -30,15 +30,12 @@ export const Navbar = () => {
         }
     ];
 
-    const logo = <p className="m-2 text-4xl font-bold">{"<YS>"}</p>
+    const logo = <p className="m-2 text-4xl font-bold">{"<YS/>"}</p>
 
     return (
         <nav style={{ background: '#f9fafb' }}>
             <div
-                style={{
-                    maxWidth: '1200px',
-                }}
-                className="w-full mx-auto"
+                className="container"
             >
                 <Menubar
                     start={logo}
