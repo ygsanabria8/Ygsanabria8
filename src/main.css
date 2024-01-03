@@ -1,4 +1,116 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.weight-thin{
+    font-weight: 100;
+}
+
+.weight-extra-light{
+    font-weight: 200;
+}
+
+.weight-light{
+    font-weight: 300;
+}
+
+.weight-regular{
+    font-weight: 400;
+}
+
+.weight-medium{
+    font-weight: 500;
+}
+
+.weight-semi-bold{
+    font-weight: 600;
+}
+
+.weight-bold{
+    font-weight: 700;
+}
+
+.weight-extra-bold{
+    font-weight: 800;
+}
+
+.weight-black{
+    font-weight: 900;
+}
+
+/* Register Fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
 }

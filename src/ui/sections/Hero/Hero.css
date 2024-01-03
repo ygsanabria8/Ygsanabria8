@@ -1,0 +1,9 @@
+.contact > a {
+    color: #000;
+}
+
+.circular {
+    border-radius: 50% !important;
+    max-width: 400px;
+    width: 100%;
+}
