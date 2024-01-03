@@ -20,7 +20,7 @@ export const Hero = () => {
                 className="grid container"
             >
                 <Image
-                    src='./src/assets/images/hero.jpg'
+                    src='/assets/images/hero.jpg'
                     className='col-12 lg:col-6'
                     imageClassName='flex mx-auto shadow-8 circular'
                 />
