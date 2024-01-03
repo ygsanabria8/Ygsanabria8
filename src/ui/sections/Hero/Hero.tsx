@@ -53,7 +53,7 @@ export const Hero = () => {
                                 onClick={() => onClickContact('')}
                             />
                         </a>
-                        <a href="mailto:yesid2571@hotmail.com" target='_blank'>
+                        <a href="mailto:yesid2571@hotmail.com">
                             <FontAwesomeIcon
                                 icon={faEnvelope}
                                 size='xl'
@@ -61,7 +61,7 @@ export const Hero = () => {
                                 onClick={() => onClickContact('')}
                             />
                         </a>
-                        <a href="tel:+573144651658" target='_blank'>
+                        <a href="tel:+573144651658">
                             <FontAwesomeIcon
                                 icon={faPhone}
                                 size='xl'
