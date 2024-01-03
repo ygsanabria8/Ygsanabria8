@@ -9,11 +9,6 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
 import './Hero.css';
 
 export const Hero = () => {
-
-    const onClickContact = (paht: string) => {
-        window.open(paht, 'blank');
-    }
-
     return (
         <section className='mt-5'>
             <div
@@ -50,7 +45,6 @@ export const Hero = () => {
                                 icon={faLinkedin}
                                 size='xl'
                                 className='cursor-pointer'
-                                onClick={() => onClickContact('')}
                             />
                         </a>
                         <a href="mailto:yesid2571@hotmail.com">
@@ -58,7 +52,6 @@ export const Hero = () => {
                                 icon={faEnvelope}
                                 size='xl'
                                 className='cursor-pointer'
-                                onClick={() => onClickContact('')}
                             />
                         </a>
                         <a href="tel:+573144651658">
