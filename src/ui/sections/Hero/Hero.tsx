@@ -12,7 +12,7 @@ export const Hero = () => {
     return (
         <section className='mt-5'>
             <div
-                className="grid container"
+                className="grid container hero justify-content-between align-items-center"
             >
                 <Image
                     src='assets/images/hero.jpg'
