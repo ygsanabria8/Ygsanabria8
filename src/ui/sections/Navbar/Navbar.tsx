@@ -12,7 +12,7 @@ export const Navbar = () => {
 
     const items: MenuItem[] = [
         {
-            label: 'Perfil',
+            label: 'Sobre mí',
             icon: <FontAwesomeIcon icon={faUser} className="mr-2"/>
         },
         {
