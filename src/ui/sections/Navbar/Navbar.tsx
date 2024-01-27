@@ -16,13 +16,13 @@ export const Navbar = () => {
             icon: <FontAwesomeIcon icon={faUser} className="mr-2"/>
         },
         {
+            label: 'Tecnologias',
+            icon: <FontAwesomeIcon icon={faGear} className="mr-2"/>
+        },
+        {
             label: 'Experiencia',
             icon: <FontAwesomeIcon icon={faBriefcase} className="mr-2"/>,
 
-        },
-        {
-            label: 'Tecnologias',
-            icon: <FontAwesomeIcon icon={faGear} className="mr-2"/>
         },
         {
             label: 'Proyectos',

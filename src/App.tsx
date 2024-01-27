@@ -6,6 +6,7 @@ import '/node_modules/primeflex/primeflex.css';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { Hero } from './ui/sections/Hero/Hero';
 import { About } from './ui/sections/About/About';
+import { Technologies } from './ui/sections/Technologies/Technologies';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Technologies/>
     </PrimeReactProvider>
   )
 }

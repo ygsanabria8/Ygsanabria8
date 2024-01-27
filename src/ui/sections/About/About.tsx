@@ -9,8 +9,16 @@ export const About = () => {
                     <FontAwesomeIcon icon={faUser} size="xl" />
                     <p className="text-4xl weight-semi-bold">Sobre mí</p>
                 </div>
-                <p className="mt-3 col-12 lg:col-8">
-                Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                <p className="mt-3 text-xl col-12 lg:col-6">
+                    Apasionado por el desarrollo y diseño de software. 
+                    He trabajado en proyectos de desarrollo ágil implementando soluciones a 
+                    la medida con altos estándares de calidad y tecnologías a la vanguardia.
+                    <br/>
+                    <br/>
+                    Estoy en constante aprendizaje para poder llevar al máximo mis habilidades 
+                    al desarrollo e implementación de nuevas tecnologías. 
+                    Cuento con habilidades como lo son pensamiento crítico, 
+                    comunicación asertiva, autogestión y liderazgo.
                 </p>
             </section>
         </article>
