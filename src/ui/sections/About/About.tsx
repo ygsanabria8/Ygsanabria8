@@ -18,7 +18,7 @@ export const About = () => {
                     <br/>
                     <br/>
                     Mi sólido conjunto de habilidades técnicas me ha permitido alcanzar con éxito los objetivos 
-                    establecidos en los proyectos en los que he participado. He demostrado liderazgo, habilidades
+                    establecidos en los proyectos en los que he participado demostrando liderazgo, habilidades
                      de comunicación efectiva, capacidad para trabajar en equipo, así como una actitud proactiva 
                      y orientada a la resolución de problemas.
                     <br/>
