@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 import { Card } from "primereact/card";
 import { Timeline, TimelinePassThroughOptions, TimelineProps } from "primereact/timeline";
-import { useResizeListener } from 'primereact/hooks';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons/faBriefcase"
@@ -14,23 +13,22 @@ type TimeLineStyle = {
 } & Pick<TimelineProps, "align">
 
 export const Experience = () => {
+
     const [styleData, setStyleData] = useState({ align: 'alternate', display: 'block' } as TimeLineStyle);
 
-    const [bindWindowResizeListener, unbindWindowResizeListener] = useResizeListener({
-        listener: (event) => {
-            event.currentTarget?.innerWidth < 800
-                ? setStyleData({align: 'left', display: 'none'})
-                : setStyleData({align: 'alternate', display: 'block'})
-        }
-    });
-
     useEffect(() => {
-        bindWindowResizeListener();
+        const handleWindowResize = () => {
+            window.innerWidth < 800
+                ? setStyleData({ align: 'left', display: 'none' })
+                : setStyleData({ align: 'alternate', display: 'block' })
+        };
+
+        window.addEventListener('resize', handleWindowResize);
 
         return () => {
-            unbindWindowResizeListener();
+            window.removeEventListener('resize', handleWindowResize);
         };
-    }, [bindWindowResizeListener, unbindWindowResizeListener]);
+    }, []);
 
     const timeLineStyle: TimelinePassThroughOptions = {
         content: {
@@ -40,7 +38,7 @@ export const Experience = () => {
         },
         opposite: {
             style: {
-               display: styleData.display
+                display: styleData.display
             }
         }
     }
