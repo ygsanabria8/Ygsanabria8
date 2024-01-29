@@ -16,15 +16,15 @@ export const Experience = () => {
 
     const [styleData, setStyleData] = useState({ align: 'alternate', display: 'block' } as TimeLineStyle);
 
+    const handleWindowResize = () => {
+        window.innerWidth < 800
+            ? setStyleData({ align: 'left', display: 'none' })
+            : setStyleData({ align: 'alternate', display: 'block' })
+    };
+
     useEffect(() => {
-        const handleWindowResize = () => {
-            window.innerWidth < 800
-                ? setStyleData({ align: 'left', display: 'none' })
-                : setStyleData({ align: 'alternate', display: 'block' })
-        };
-
+        handleWindowResize();
         window.addEventListener('resize', handleWindowResize);
-
         return () => {
             window.removeEventListener('resize', handleWindowResize);
         };
