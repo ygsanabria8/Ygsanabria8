@@ -71,8 +71,8 @@ export const Experience = () => {
         <article id="experience" className="mt-8">
             <section className="container">
                 <div className="grid grid-nogutter gap-3 align-items-center">
-                    <FontAwesomeIcon icon={faBriefcase} size="xl" />
-                    <p className="text-4xl weight-semi-bold">Experiencia</p>
+                    <FontAwesomeIcon icon={faBriefcase} size="xl" color="var(--text-color)"/>
+                    <p className="text-4xl weight-semi-bold title">Experiencia</p>
                 </div>
                 <Timeline
                     className="mt-5"

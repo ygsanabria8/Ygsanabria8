@@ -12,8 +12,8 @@ export const Technologies = () => {
         <article id="technologies" className="mt-8">
             <section className="container">
                 <div className="grid grid-nogutter gap-3 align-items-center">
-                    <FontAwesomeIcon icon={faGear} size="xl" />
-                    <p className="text-4xl weight-semi-bold">Tecnologias</p>
+                    <FontAwesomeIcon icon={faGear} size="xl" color="var(--text-color)"/>
+                    <p className="text-4xl weight-semi-bold title">Tecnologias</p>
                 </div>
                 <div className="grid grid-nogutter gap-5 justify-content-center mt-5">
                     {

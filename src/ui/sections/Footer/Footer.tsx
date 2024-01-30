@@ -14,6 +14,7 @@ export const Footer = () => {
                             icon={faGithub}
                             size='lg'
                             className='cursor-pointer'
+                            color="var(--text-color)"
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/yesid-sanabria" target='_blank'>
@@ -21,6 +22,7 @@ export const Footer = () => {
                             icon={faLinkedin}
                             size='lg'
                             className='cursor-pointer'
+                            color="var(--text-color)"
                         />
                     </a>
                     <a href="mailto:yesid2571@hotmail.com">
@@ -28,6 +30,7 @@ export const Footer = () => {
                             icon={faEnvelope}
                             size='lg'
                             className='cursor-pointer'
+                            color="var(--text-color)"
                         />
                     </a>
                     <a href="tel:+573144651658">
@@ -35,6 +38,7 @@ export const Footer = () => {
                             icon={faPhone}
                             size='lg'
                             className='cursor-pointer'
+                            color="var(--text-color)"
                         />
                     </a>
                 </div>

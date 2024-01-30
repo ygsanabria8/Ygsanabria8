@@ -6,8 +6,8 @@ export const About = () => {
         <article id="about" className="mt-8">
             <section className="container">
                 <div className="grid grid-nogutter gap-3 align-items-center">
-                    <FontAwesomeIcon icon={faUser} size="xl" />
-                    <p className="text-4xl weight-semi-bold">Sobre mí</p>
+                    <FontAwesomeIcon icon={faUser} size="xl" color="var(--text-color)"/>
+                    <p className="text-4xl weight-semi-bold title">Sobre mí</p>
                 </div>
                 <p className="mt-3 text-lg col-12 lg:col-7">
                     Ingeniero en Sistemas y Computación con una trayectoria de más de 3 años especializado en el 

@@ -6,8 +6,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
 
-import './Hero.css';
-
 export const Hero = () => {
     return (
         <section id='hero' className='mt-8'>
@@ -38,6 +36,7 @@ export const Hero = () => {
                                 icon={faGithub}
                                 size='xl'
                                 className='cursor-pointer'
+                                color="var(--text-color)"
                             />
                         </a>
                         <a href="https://www.linkedin.com/in/yesid-sanabria" target='_blank'>
@@ -45,6 +44,7 @@ export const Hero = () => {
                                 icon={faLinkedin}
                                 size='xl'
                                 className='cursor-pointer'
+                                color="var(--text-color)"
                             />
                         </a>
                         <a href="mailto:yesid2571@hotmail.com">
@@ -52,6 +52,7 @@ export const Hero = () => {
                                 icon={faEnvelope}
                                 size='xl'
                                 className='cursor-pointer'
+                                color="var(--text-color)"
                             />
                         </a>
                         <a href="tel:+573144651658">
@@ -59,6 +60,7 @@ export const Hero = () => {
                                 icon={faPhone}
                                 size='xl'
                                 className='cursor-pointer'
+                                color="var(--text-color)"
                             />
                         </a>
                     </div>

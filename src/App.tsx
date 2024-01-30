@@ -2,8 +2,6 @@ import { PrimeReactProvider } from 'primereact/api';
 
 import { Navbar } from './ui/sections/Navbar/Navbar';
 
-import { ScrollTop } from 'primereact/scrolltop';
-
 import 'primereact/resources/themes/lara-light-green/theme.css';
 import 'primeflex/primeflex.css';
 
@@ -22,7 +20,6 @@ export const App = () => {
       <Technologies/>
       <Experience/>
       <Footer/>
-      <ScrollTop />
     </PrimeReactProvider>
   )
 }

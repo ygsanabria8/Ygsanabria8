@@ -7,39 +7,45 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Menubar } from "primereact/menubar"
 import { MenuItem } from "primereact/menuitem";
 
-import './Navbar.css';
-
 export const Navbar = () => {
 
     const items: MenuItem[] = [
         {
             label: 'Sobre mí',
-            icon: <FontAwesomeIcon icon={faUser} className="mr-2"/>,
+            icon: <FontAwesomeIcon icon={faUser} color="var(--text-color)" className="mr-2" />,
             url: '#about'
         },
         {
             label: 'Tecnologias',
-            icon: <FontAwesomeIcon icon={faGear} className="mr-2"/>,
+            icon: <FontAwesomeIcon icon={faGear} color="var(--text-color)" className="mr-2" />,
             url: '#technologies'
         },
         {
             label: 'Experiencia',
-            icon: <FontAwesomeIcon icon={faBriefcase} className="mr-2"/>,
-            url: '#experience'
+            icon: <FontAwesomeIcon icon={faBriefcase} color="var(--text-color)" className="mr-2" />,
+            url: '#experience',
         }
     ];
 
-    const logo = <p className="m-2 text-4xl font-bold">{"<YS/>"}</p>
+    const logo =
+        (
+            <a 
+                className="text-4xl font-bold cursor-pointer no-underline logo"
+                href="#"
+            >
+                {"<YS/>"}
+            </a>
+        )
 
     return (
-        <nav style={{ background: '#f9fafb' }}>
+        <nav className="shadow-3">
             <div
                 className="container"
             >
                 <Menubar
                     start={logo}
                     model={items}
-                    className="justify-content-between border-none"
+                    className="m-2 justify-content-between border-none"
                 />
             </div>
         </nav>
