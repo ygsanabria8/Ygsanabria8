@@ -68,13 +68,14 @@ export const Experience = () => {
     };
 
     return (
-        <article className="mt-8">
+        <article id="experience" className="mt-8">
             <section className="container">
                 <div className="grid grid-nogutter gap-3 align-items-center">
                     <FontAwesomeIcon icon={faBriefcase} size="xl" />
                     <p className="text-4xl weight-semi-bold">Experiencia</p>
                 </div>
                 <Timeline
+                    className="mt-5"
                     align={styleData.align}
                     value={experience}
                     content={customizedContent}

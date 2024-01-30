@@ -10,7 +10,7 @@ import './Hero.css';
 
 export const Hero = () => {
     return (
-        <section className='mt-5'>
+        <section id='hero' className='mt-8'>
             <div
                 className="grid container hero justify-content-between align-items-center"
             >

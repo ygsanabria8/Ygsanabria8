@@ -1,32 +1,31 @@
 
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons/faBriefcase";
 import { faGear } from "@fortawesome/free-solid-svg-icons/faGear";
-import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons/faScrewdriverWrench";
 import { faUser } from "@fortawesome/free-solid-svg-icons/faUser";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { Menubar } from "primereact/menubar"
 import { MenuItem } from "primereact/menuitem";
 
+import './Navbar.css';
+
 export const Navbar = () => {
 
     const items: MenuItem[] = [
         {
             label: 'Sobre mí',
-            icon: <FontAwesomeIcon icon={faUser} className="mr-2"/>
+            icon: <FontAwesomeIcon icon={faUser} className="mr-2"/>,
+            url: '#about'
         },
         {
             label: 'Tecnologias',
-            icon: <FontAwesomeIcon icon={faGear} className="mr-2"/>
+            icon: <FontAwesomeIcon icon={faGear} className="mr-2"/>,
+            url: '#technologies'
         },
         {
             label: 'Experiencia',
             icon: <FontAwesomeIcon icon={faBriefcase} className="mr-2"/>,
-
-        },
-        {
-            label: 'Proyectos',
-            icon: <FontAwesomeIcon icon={faScrewdriverWrench} className="mr-2"/>
+            url: '#experience'
         }
     ];
 
