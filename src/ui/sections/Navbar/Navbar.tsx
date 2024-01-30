@@ -16,7 +16,7 @@ export const Navbar = () => {
             url: '#about'
         },
         {
-            label: 'Tecnologias',
+            label: 'Tecnologías',
             icon: <FontAwesomeIcon icon={faGear} color="var(--text-color)" className="mr-2" />,
             url: '#technologies'
         },

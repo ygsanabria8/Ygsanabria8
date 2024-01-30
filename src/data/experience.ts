@@ -22,9 +22,9 @@ export const experience: IExperience[] = [
         company: "Double V Partners",
         date: 'Enero 2022 - Septiembre 2022',
         resume: [
-            "Definición y diseño de arquitectura bajo Domain Driven Design y CQRS",
-            "Desarrollo web con tecnologías Angular 9+ y Flutter",
-            "Desarrollo backend bajo tecnología Golang y .Net 3+",
+            "Definición y diseño de arquitectura bajo Domain Driven Design y CQRS.",
+            "Desarrollo web con tecnologías Angular 9+ y Flutter.",
+            "Desarrollo backend bajo tecnología Golang y .Net 3+.",
             "Liderazgo técnico y manejo de equipo de desarrollo para el cumplimiento de objetivos.",
             "Supervisión del mantenimiento, mejora continua y desarrollo de nuevas funcionalidades."
         ]
@@ -34,8 +34,8 @@ export const experience: IExperience[] = [
         company: "Double V Partners",
         date: 'Octubre 2021 - Enero 2022',
         resume: [
-            "Desarrollo web con tecnologías Angular 9+ y Flutter",
-            "Desarrollo backend bajo tecnología Golang y .Net 3+",
+            "Desarrollo web con tecnologías Angular 9+ y Flutter.",
+            "Desarrollo backend bajo tecnología Golang y .Net 3+.",
             "Mantenimiento, mejora continua y desarrollo de nuevas funcionalidades."
         ]
     },
@@ -44,7 +44,7 @@ export const experience: IExperience[] = [
         company: "Double V Partners",
         date: 'Enero 2021 - Septiembre 2021',
         resume: [
-            "Desarrollo web con tecnologías Angular 9+ y Flutter",
+            "Desarrollo web con tecnologías Angular 9+ y Flutter.",
             "Mantenimiento y mejora continua de funcionalidades."
         ]
     }
