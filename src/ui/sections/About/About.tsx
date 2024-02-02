@@ -21,7 +21,7 @@ export const About = () => {
                         <br />
                         Mi sólido conjunto de habilidades técnicas me ha permitido alcanzar con éxito los objetivos
                         establecidos en los proyectos en los que he participado demostrando liderazgo, habilidades
-                        de comunicación efectiva, capacidad para trabajar en equipo, así como una actitud proactiva
+                        de comunicación efectiva y capacidad para trabajar en equipo, así como una actitud proactiva
                         y orientada a la resolución de problemas.
                         <br />
                         <br />
@@ -31,7 +31,7 @@ export const About = () => {
                     <Image
                         src='assets/images/about.webp'
                         className='col-12 lg:col-4'
-                        imageClassName='flex mx-auto about-img w-full px-3'
+                        imageClassName='flex mx-auto about-img px-3'
                     />
                 </div>
             </section>
