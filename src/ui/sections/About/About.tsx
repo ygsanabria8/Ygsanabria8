@@ -31,7 +31,7 @@ export const About = () => {
                     <Image
                         src='assets/images/about.webp'
                         className='col-12 lg:col-4'
-                        imageClassName='flex mx-auto about-img px-3'
+                        imageClassName='flex mx-auto about-img w-full px-3'
                     />
                 </div>
             </section>
