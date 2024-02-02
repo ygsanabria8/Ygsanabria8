@@ -13,7 +13,7 @@ export const Hero = () => {
                 className="grid container hero justify-content-between align-items-center"
             >
                 <Image
-                    src='assets/images/hero.jpg'
+                    src='assets/images/hero.webp'
                     className='col-12 lg:col-6'
                     imageClassName='flex mx-auto shadow-8 circular'
                 />

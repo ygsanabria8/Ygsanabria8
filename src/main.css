@@ -34,7 +34,7 @@ nav {
 
 .hero {
     height: auto;
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .contact > a {
@@ -60,6 +60,10 @@ nav {
 
 .logo {
     color: var(--text-color);
+}
+
+.about-img {
+    max-height: 500px;
 }
 
 .p-card {
