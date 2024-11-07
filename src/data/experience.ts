@@ -7,9 +7,20 @@ export interface IExperience {
 
 export const experience: IExperience[] = [
     {
+        position: 'Teach Lead and Senior Backend Developer',
+        company: "Kanguro Insurance",
+        date: 'Octubre 2024 - Actualidad',
+        resume: [
+            "Desarrollo backend bajo tecnología .Net 8.",
+            "Mantenimineto y mejora continua de procesos CI/CD",
+            "Microsoft Azure",
+            "Mantenimiento, mejora continua y desarrollo de nuevas funcionalidades."
+        ]
+    },
+    {
         position: 'Fullstack semi senior',
         company: "Siigo",
-        date: 'Septiembre 2022 - Actualidad',
+        date: 'Septiembre 2022 - Octubre 2024',
         resume: [
             "Definición y diseño de arquitectura bajo Domain Driven Design, CQRS y Event Sourcing con Kafka",
             "Desarrollo web con tecnologías Angular 11+ y React 18",
